@@ -16,4 +16,5 @@ export const Image = styled.img`
     overflow: hidden;
     object-fit: cover;
     width: 75px;
+    height: 75px;
 `
