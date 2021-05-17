@@ -4,6 +4,7 @@
   "description": "**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev",
   "main": "index.js",
   "scripts": {
+    "vercel-build": "npm run build",
     "build": "webpack",
     "lint": "standard",
     "dev": "webpack serve",
@@ -33,7 +34,8 @@
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.0"
   },
   "standard": {
     "ignore": [
@@ -41,6 +43,8 @@
     ]
   },
   "eslintConfig": {
-    "extends": ["./node_modules/standard/eslintrc.json"]
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
