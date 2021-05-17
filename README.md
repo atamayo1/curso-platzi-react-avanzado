@@ -1,4 +1,4 @@
-## curso-platzi-react-avanzado ⚛️
+## Curso platzi react avanzado ⚛️
 
 **¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev
 
