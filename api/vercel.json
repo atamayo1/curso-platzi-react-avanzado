@@ -2,7 +2,7 @@
   "version": 2,
   "name": "petgram-server-anthony",
   "alias": ["petgram-api"],
-  "builds": [{ "src": "index.js", "use": "@versel/node" }],
+  "builds": [{ "src": "index.js", "use": "@vercel/node" }],
   "routes": [
     {
       "headers": {
