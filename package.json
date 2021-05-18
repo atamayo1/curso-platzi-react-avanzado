@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "deploy": "vercel",
+    "deploy-prod": "vercel --prod",
     "lint": "standard",
     "dev": "webpack serve",
+    "deploy": "vercel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
