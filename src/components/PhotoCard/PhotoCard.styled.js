@@ -21,6 +21,10 @@ export const Img = styled.img`
   top: 0;
 `
 
+export const Article = styled.article`
+  min-height: 200px;
+`
+
 export const Button = styled.button`
   display: flex;
   align-items: center;
