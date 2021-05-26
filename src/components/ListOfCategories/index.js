@@ -46,7 +46,7 @@ export const ListOfCategories = () => {
   )
 
   if (loading) {
-    return 'Cargando...'
+    return 'Cargando Categories...'
   }
 
   return (
