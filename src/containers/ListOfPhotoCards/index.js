@@ -11,7 +11,7 @@ export const ListOfPhotoCardsContainer = ({ categoryId }) => {
     return <h2>Internal Server Error</h2>
   }
   if (loading) {
-    return 'Cargando Photo Cards...'
+    return 'Cargando List Of Photo Cards...'
   }
   return <ListOfPhotoCards data={data} />
 }
